@@ -3,7 +3,7 @@
 @section('content')
 <div class="content-area py-1">
     <div class="container-fluid">
-        <h4>Dispatcher</h4>
+        <h4>@lang('admin.dispatcher.dispatcher')</h4>
         <div class="dispatch-head">
             <nav class="navbar navbar-light bg-white b-a mb-2">
                 <button class="navbar-toggler hidden-md-up" data-toggle="collapse" data-target="#process-filters" aria-controls="process-filters" aria-expanded="false" aria-label="Toggle Navigation"></button>

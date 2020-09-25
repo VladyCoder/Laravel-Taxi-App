@@ -22,7 +22,7 @@
 						<div id="world" style="height: 400px;"></div>
 					</div>
 					<div class="col-md-4 demo-progress">
-							<h5 class="mb-2">Drivers Rating</h5>
+							<!-- <h5 class="mb-2">Drivers Rating</h5> -->
 							@if($providers->count() > 0)
 								@foreach($providers as $provider)
 								<p class="mb-0-5">{{$provider->first_name}} {{$provider->last_name}} <span class="float-xs-right">{{($provider->rating/5)*100}}%</span></p>

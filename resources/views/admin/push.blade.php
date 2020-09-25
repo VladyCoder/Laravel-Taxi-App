@@ -27,9 +27,9 @@
 						<label class="col-xs-2 col-form-label">@lang('admin.push.Sent_to')</label>
 						<div class="col-xs-10">
 							<select class="form-control" name="send_to" onchange="switch_send(this.value)">
-								<option value="ALL">All Users and Drivers</option>
-								<option value="USERS">All Users</option>
-								<option value="PROVIDERS">All Drivers</option>
+								<option value="ALL">@lang('admin.push.all_users_and_drivers')</option>
+								<option value="USERS">@lang('admin.push.all_users')</option>
+								<option value="PROVIDERS">@lang('admin.push.all_drivers')</option>
 							</select>
 						</div>
 					</div>

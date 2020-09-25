@@ -3,7 +3,7 @@
 @section('content')
 <div class="content-area py-1">
     <div class="container-fluid">
-        <h4>Dispatcher</h4>
+        <h4>@lang('admin.dispatcher.dispatcher')</h4>
         <div class="dispatch-head">
             <nav class="navbar navbar-light bg-white b-a mb-2">
                 <button class="navbar-toggler hidden-md-up" data-toggle="collapse" data-target="#process-filters" aria-controls="process-filters" aria-expanded="false" aria-label="Toggle Navigation"></button>
@@ -23,10 +23,10 @@
                 </ul>
                 <div class="collapse navbar-toggleable-sm" id="process-filters">
                     <ul class="nav navbar-nav dispatcher-nav">
-                        <li class="nav-item"><span class="nav-link" href="#">Searching</span></li>
-                        <li class="nav-item active"><span class="nav-link" href="#">Cancelled</span></li>
+                        <li class="nav-item"><span class="nav-link" href="#">@lang('admin.dispatcher.searching')</span></li>
+                        <li class="nav-item active"><span class="nav-link" href="#">@lang('admin.dispatcher.cancelled')</span></li>
                         <li class="nav-item "><span class="nav-link" href="#">Ongoing</span></li>
-                        <li class="nav-item "><span class="nav-link" href="#">Scheduled</span></li>
+                        <li class="nav-item "><span class="nav-link" href="#">@lang('admin.dispatcher.schedule')</span></li>
                     </ul>
                 </div>
             </nav>

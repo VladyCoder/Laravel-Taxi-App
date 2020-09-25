@@ -154,6 +154,10 @@ return array (
     'add_new_dispatcher' => 'Agregar nuevo despachador',
     'add_dispatcher' => 'Agregar despachador',
     'update_dispatcher' => 'Actualizar despachador',
+    'searching' => 'Buscando',
+    'cancelled' => 'Cancelados',
+    'warning' => 'Alerta',
+    'schedule' => 'Programados'
   ),
   'provides' => 
   array (
@@ -186,6 +190,8 @@ return array (
     'Commission' => 'Comisióm',
     'Joined_at' => 'Se unió a',
     'Details' => 'Detalles',
+    'attention' => 'Precaución',
+    'all_set' => 'Todo revisado'
   ),
   'History' => 'Historial',
   'Statements' => 'Estado de cuenta',
@@ -207,7 +213,7 @@ return array (
     'members' => 'Miembros',
     'users' => 'Usuarios',
     'list_users' => 'Lista de usuarios',
-    'add_new_user' => 'Agregar nuevo usuario',
+    'add_new_user' => 'Agregar usuario',
     'providers' => 'Conductores',
     'list_providers' => 'Lista de conductores',
     'add_new_provider' => 'Agregar nuevo conductor',
@@ -321,13 +327,15 @@ return array (
       'specialrates' => 'Tarifas Especiales',
       'description' => 'Descripción',
       'radius' => 'Radio',
-      'price' => 'Precio',
+      'price' => 'Tarifa',
       'service_type' => 'Tipo de servicio',
       'percentage' => 'Porcentaje',
-      'source' => 'Source',
-      'destination' => 'Distancia',
-      'ACTIVE' => 'ACTIVE',
+      'source' => 'Origen',
+      'destination' => 'Destino',
+      'ACTIVE' => 'ACTIVO',
       'PENDING' => 'PENDIENTE',
+      'pickup_location' => 'Ingresa la dirección de origen',
+      'drop_location' => 'Ingresa la dirección de destino'
   ),
   'users' => 
   array (
@@ -354,9 +362,9 @@ return array (
   'address' => 'Dirección',
   'action' => 'Acción',
   'Enable' => 'Habilitar',
-  'Disable' => 'Inhabilitar',
+  'Disable' => 'Deshabilitar',
   'type' => 'Tipo',
-  'status' => 'Estatus',
+  'status' => 'Estado',
   'distance' => 'Distancia',
   'message' => 'Mensaje',
   'amount' => 'Cantidad',
@@ -364,7 +372,7 @@ return array (
   'logo' => 'Logo',
   'service_select' => 'Por favor cree un tipo de servicio',
   'enable' => 'Habilitar',
-  'disable' => 'Inhabilitar',
+  'disable' => 'Deshabilitar',
   'pages' => 
   array (
     'pages' => 'Páginas',
@@ -410,6 +418,7 @@ return array (
     'ride_status' => 'Estado del viaje',
     'Admin_Name' => 'Nombre de administrador',
     'Rental_Providers' => 'Proveedores de alquiler',
+    'pending_request' => 'Historial'
   ),
   'review' => 
   array (
@@ -451,6 +460,9 @@ return array (
     'Condition' => 'Condición',
     'Notification_History' => 'Historial de notificaciones',
     'Sent_on' => 'Enviado',
+    'all_users_and_drivers' => 'Todos los usuarios y conductores',
+    'all_users' => 'Todos los usuarios',
+    'all_drivers' => 'Todos los conductores'
   ),
   'transaction_ref' => 'ID de transacción',
   'transaction_desc' => 'Descripción',
@@ -462,6 +474,8 @@ return array (
   'datetime' => 'Fecha y; Hora',
   'approve' => 'Enviar',
   'settle' => 'Establecer',
+  'credit' => 'Recargar',
+  'debit' => 'Debitar',
   'account_manager_msgs' => 
   array (
     'account_saved' => 'Detalles del administrador de cuentas guardados correctamente',
@@ -545,6 +559,7 @@ return array (
   ),
   'service_type_msgs' => 
   array (
+    'add_new_service' => 'Agregar nuevo servicio',
     'service_type_saved' => 'Tipo de servicio guardado correctamente',
     'service_type_not_found' => 'Tipo de servicio no encontrado',
     'service_type_exists' => 'El tipo de servicio ya existe',

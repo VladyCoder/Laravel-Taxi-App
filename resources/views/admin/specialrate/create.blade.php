@@ -20,28 +20,28 @@
 						<div class="form-group row">
 							<label for="name" class="col-xs-2 col-form-label">@lang('admin.name')</label>
 							<div class="col-xs-10">
-								<input class="form-control" autocomplete="off"  type="text" value="{{ old('name') }}" name="name" required id="name" placeholder="Name">
+								<input class="form-control" autocomplete="off"  type="text" value="{{ old('name') }}" name="name" required id="name" placeholder="@lang('admin.name')">
 							</div>
 						</div>
 
 						<div class="form-group row">
 							<label for="description" class="col-xs-2 col-form-label">@lang('admin.specialrate.description')</label>
 							<div class="col-xs-10">
-								<input type="text" class="form-control" id="description" name="description" value="{{ old('description') }}" placeholder="description">
+								<input type="text" class="form-control" id="description" name="description" value="{{ old('description') }}" placeholder="@lang('admin.specialrate.description')">
 							</div>
 						</div>
 
 						<div class="form-group row">
 							<label for="source" class="col-xs-2 col-form-label">@lang('admin.specialrate.source')</label>
 							<div class="col-xs-10">
-								<input type="text" class="form-control" id="origin-input" name="source" value="{{ old('source') }}" placeholder="Enter Pickup location">
+								<input type="text" class="form-control" id="origin-input" name="source" value="{{ old('source') }}" placeholder="@lang('admin.specialrate.pickup_location')">
 							</div>
 						</div>
 
 						<div class="form-group row">
 							<label for="s_radius" class="col-xs-2 col-form-label">@lang('admin.specialrate.radius')</label>
 							<div class="col-xs-8">
-								<input class="form-control" type="decimal" step="0.01" value="{{ old('s_radius') }}" name="s_radius" required id="s_radius" placeholder="Radius">
+								<input class="form-control" type="decimal" step="0.01" value="{{ old('s_radius') }}" name="s_radius" required id="s_radius" placeholder="@lang('admin.specialrate.radius')">
 							</div>
 							<label for="s_radius" class="col-xs-2 col-form-label">Km</label>
 						</div>
@@ -49,14 +49,14 @@
 						<div class="form-group row">
 							<label for="destination" class="col-xs-2 col-form-label">@lang('admin.specialrate.destination')</label>
 							<div class="col-xs-10">
-								<input type="text" class="form-control" id="destination-input" name="destination" value="{{ old('destination') }}"  placeholder="Enter Drop location" >
+								<input type="text" class="form-control" id="destination-input" name="destination" value="{{ old('destination') }}"  placeholder="@lang('admin.specialrate.drop_location')" >
 							</div>
 						</div>
 
 						<div class="form-group row">
 							<label for="d_radius" class="col-xs-2 col-form-label">@lang('admin.specialrate.radius')</label>
 							<div class="col-xs-8">
-								<input class="form-control" type="decimal" step="0.01" value="{{ old('d_radius') }}" name="d_radius" required id="d_radius" placeholder="Radius">
+								<input class="form-control" type="decimal" step="0.01" value="{{ old('d_radius') }}" name="d_radius" required id="d_radius" placeholder="@lang('admin.specialrate.radius')">
 							</div>
 							<label for="d_radius" class="col-xs-2 col-form-label">Km</label>
 						</div>
@@ -64,7 +64,7 @@
 						<div class="form-group row">
 							<label for="price" class="col-xs-2 col-form-label">@lang('admin.specialrate.price')</label>
 							<div class="col-xs-8">
-								<input class="form-control" type="decimal" step="0.01" value="{{ old('price') }}" name="price" required id="price" placeholder="Price">
+								<input class="form-control" type="decimal" step="0.01" value="{{ old('price') }}" name="price" required id="price" placeholder="@lang('admin.specialrate.price')">
 							</div>
 							<label for="price" class="col-xs-2 col-form-label">{{currency()}}</label>
 						</div>

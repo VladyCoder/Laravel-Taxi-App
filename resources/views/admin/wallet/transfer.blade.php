@@ -13,7 +13,8 @@
                     ** Demo Mode : No Permission to create or send settlements.
                 </div>
                 @endif
-                <h5 class="mb-1">@if($type=='provider')Provider @else Fleet @endif Pending Request </h5>
+                <!-- <h5 class="mb-1">@if($type=='provider')Provider @else Fleet @endif Pending Request </h5> -->
+                <h5 class="mb-1">@lang('admin.request.pending_request') </h5>
 
                 @if(Setting::get('demo_mode') == 0)
                     <a href="{{route('admin.transfercreate', $flag)}}" style="margin-left: 1em;" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> @lang('admin.addsettle')</a>

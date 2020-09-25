@@ -17,7 +17,7 @@
                 <span class="pull-right">(*personal information hidden in demo)</span>
                 @endif               
             </h5>
-            <a href="{{ route('admin.user.create') }}" style="margin-left: 1em;" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> Add New User</a>
+            <a href="{{ route('admin.user.create') }}" style="margin-left: 1em;" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> @lang('admin.include.add_new_user')</a>
             <table class="table table-striped table-bordered dataTable" id="table-5">
                 <thead>
                     <tr>

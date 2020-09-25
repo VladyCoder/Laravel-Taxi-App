@@ -27,7 +27,7 @@
 </script>
 
 <script type="text/javascript" src="{{ asset('asset/js/dispatcher-map-admin.js') }}"></script>
-<script type="text/babel" src="{{ asset('asset/js/dispatcher-admin.js') }}"></script>
+<script type="text/babel" src="{{ asset('asset/js/dispatcher-admin.js') }}?v=1"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key={{ Setting::get('map_key') }}&libraries=places&callback=initMap" async defer></script>
 @endsection
 

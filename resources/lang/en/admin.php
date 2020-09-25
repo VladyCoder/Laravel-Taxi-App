@@ -155,6 +155,10 @@ return array (
     'add_new_dispatcher' => 'Add New Dispatcher',
     'add_dispatcher' => 'Add Dispatcher',
     'update_dispatcher' => 'Update Dispatcher',
+    'searching' => 'Searching',
+    'cancelled' => 'Cancelled',
+    'warning' => 'Warning',
+    'schedule' => 'Schedule'
   ),
   'provides' => 
   array (
@@ -187,6 +191,8 @@ return array (
     'Commission' => 'Commission',
     'Joined_at' => 'Joined at',
     'Details' => 'Details',
+    'attention' => 'Attention',
+    'all_set' => 'All Set'
   ),
   'History' => 'History',
   'Statements' => 'Statements',
@@ -329,6 +335,8 @@ return array (
     'destination' => 'Destination',
     'ACTIVE' => 'ACTIVE',
     'PENDING' => 'PENDING',
+    'pickup_location' => 'Enter pickup location',
+    'drop_location' => 'Enter drop location'
   ),
   'users' => 
   array (
@@ -411,7 +419,7 @@ return array (
     'ride_status' => 'Ride Status',
     'Admin_Name' => 'Admin Name',
     'Rental_Providers' => 'Rental Providers',
-
+    'pending_request' => 'Pending Request'
   ),
   'review' => 
   array (
@@ -453,6 +461,9 @@ return array (
     'Condition' => 'Condition',
     'Notification_History' => 'Notification History',
     'Sent_on' => 'Sent on',
+    'all_users_and_drivers' => 'All Users and Drivers',
+    'all_users' => 'All Users',
+    'all_drivers' => 'All Drivers'
   ),
   'transaction_ref' => 'Transaction Id',
   'transaction_desc' => 'Description',
@@ -464,6 +475,8 @@ return array (
   'datetime' => 'Date &amp; Time',
   'approve' => 'Send',
   'settle' => 'Settle',
+  'credit' => 'Credit',
+  'debit' => 'Debit',
   'account_manager_msgs' => 
   array (
     'account_saved' => 'Account Manager Details Saved Successfully',
@@ -547,6 +560,7 @@ return array (
   ),
   'service_type_msgs' => 
   array (
+    'add_new_service' => 'Add New Service',
     'service_type_saved' => 'Service Type Saved Successfully',
     'service_type_not_found' => 'Service Type Not Found',
     'service_type_exists' => 'Service Type Already Exists',

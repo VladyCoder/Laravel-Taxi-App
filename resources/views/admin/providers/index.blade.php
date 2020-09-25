@@ -55,9 +55,9 @@
                         <td>{{ $provider->total_requests() - $provider->accepted_requests() }}</td>
                         <td>
                             @if($provider->active_documents() == $total_documents && !$provider->offline_services())
-                                 <a class="btn btn-success btn-block" href="{{route('admin.provider.document.index', $provider->id )}}">All Set!</a>
+                                 <a class="btn btn-success btn-block" href="{{route('admin.provider.document.index', $provider->id )}}">@lang('admin.provides.all_set')!</a>
                             @else                               
-                                <a class="btn btn-danger btn-block label-right" href="{{route('admin.provider.document.index', $provider->id )}}">Attention! <span class="btn-label">{{ $provider->pending_documents() }}</span></a>
+                                <a class="btn btn-danger btn-block label-right" href="{{route('admin.provider.document.index', $provider->id )}}">@lang('admin.provides.attention')! <span class="btn-label">{{ $provider->pending_documents() }}</span></a>
                             @endif
                         </td>
                         <td>
@@ -80,9 +80,9 @@
                         <td>
                             <div class="input-group-btn">
                                 @if($provider->status == 'approved')
-                                    <a class="btn btn-danger btn-block" href="{{ route('admin.provider.disapprove', $provider->id ) }}">@lang('Disable')</a>
+                                    <a class="btn btn-danger btn-block" href="{{ route('admin.provider.disapprove', $provider->id ) }}">@lang('admin.Disable')</a>
                                 @else
-                                    <a class="btn btn-success btn-block" href="{{ route('admin.provider.approve', $provider->id ) }}">@lang('Enable')</a>
+                                    <a class="btn btn-success btn-block" href="{{ route('admin.provider.approve', $provider->id ) }}">@lang('admin.Enable')</a>
                                 @endif
                                 <button type="button" 
                                     class="btn btn-info btn-block dropdown-toggle"

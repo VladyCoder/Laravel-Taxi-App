@@ -154,6 +154,10 @@ return array (
     'add_new_dispatcher' => 'اضف جديد المرسل',
     'add_dispatcher' => 'أضف المرسل',
     'update_dispatcher' => 'تحديث المرسل',
+    'searching' => 'Searching',
+    'cancelled' => 'Cancelled',
+    'warning' => 'Warning',
+    'schedule' => 'Schedule'
   ),
   'provides' => 
   array (
@@ -186,6 +190,8 @@ return array (
     'Commission' => 'عمولة',
     'Joined_at' => 'انضم في',
     'Details' => 'تفاصيل',
+    'attention' => 'Attention',
+    'all_set' => 'All Set'
   ),
   'History' => 'التاريخ',
   'Statements' => 'صياغات',
@@ -325,6 +331,8 @@ return array (
       'destination' => 'المكان المقصود',
       'ACTIVE' => 'نشيط',
       'PENDING' => 'قيد الانتظار',
+      'pickup_location' => 'Enter pickup location',
+      'drop_location' => 'Enter drop location'
   ),
   'users' => 
   array (
@@ -407,7 +415,8 @@ return array (
     'provider_earnings' => 'أرباح مزود',
     'ride_status' => 'وضع الركوب',
     'Admin_Name' => 'اسم المسؤول',
-'Rental_Providers' => 'Rental Providers',
+    'Rental_Providers' => 'Rental Providers',
+    'pending_request' => 'Pending Request'
   ),
   'review' => 
   array (
@@ -449,6 +458,9 @@ return array (
     'Condition' => 'شرط',
     'Notification_History' => 'تاريخ الإخطار',
     'Sent_on' => 'أرسلت في',
+    'all_users_and_drivers' => 'All Users and Drivers',
+    'all_users' => 'All Users',
+    'all_drivers' => 'All Drivers'
   ),
   'transaction_ref' => 'معرف المعاملة',
   'transaction_desc' => 'وصف',
@@ -460,6 +472,8 @@ return array (
   'datetime' => 'التاريخ & amp؛ زمن',
   'approve' => 'إرسال',
   'settle' => 'تستقر',
+  'credit' => 'Credit',
+  'debit' => 'Debit',
   'account_manager_msgs' => 
   array (
     'account_saved' => 'تفاصيل مدير الحسابات المحفوظة بنجاح',
@@ -544,6 +558,7 @@ return array (
   ),
   'service_type_msgs' => 
   array (
+    'add_new_service' => 'Add New Service',
     'service_type_saved' => 'تم حفظ نوع الخدمة بنجاح',
     'service_type_not_found' => 'نوع الخدمة غير موجود',
     'service_type_exists' => 'نوع الخدمة بالفعل موجود',

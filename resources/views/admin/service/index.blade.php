@@ -12,7 +12,7 @@
                 </div>
                 @endif 
             <h5 class="mb-1">Service Types</h5>
-            <a href="{{ route('admin.service.create') }}" style="margin-left: 1em;" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> Add New Service</a>
+            <a href="{{ route('admin.service.create') }}" style="margin-left: 1em;" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> @lang('admin.service_type_msgs.add_new_service')</a>
             <table class="table table-striped table-bordered dataTable" id="table-2">
                 <thead>
                     <tr>

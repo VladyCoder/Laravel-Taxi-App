@@ -56,7 +56,7 @@
 					<div class="col-xs-5">
 						
 						<span class="showcal">
-						<i><b>Wallet Balance:
+						<i><b>@lang('admin.users.Wallet_Balance'):
 						<span id="wallet_balance">-</span>
 						</b></i>
 						</span>
@@ -67,8 +67,8 @@
 					<label for="type" class="col-xs-2 col-form-label">@lang('admin.type')</label>
 					<div class="col-xs-5">
 						<select class="form-control" name="type">
-							<option value="C">Credit</option>
-							<option value="D">Debit</option>							
+							<option value="C">@lang('admin.credit')</option>
+							<option value="D">@lang('admin.debit')</option>							
 						</select>
 					</div>
 				</div>
