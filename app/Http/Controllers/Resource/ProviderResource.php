@@ -269,10 +269,11 @@ class ProviderResource extends Controller
                 $Provider->update(['status' => 'approved']);
                 return redirect()->route('admin.provider.index')->with('flash_success',trans('admin.provider_msgs.provider_approve'));
             } else {
+                $msg = '';
                 if($Provider->active_documents()!=$total_documents){
                     $msg=trans('admin.provider_msgs.document_pending');
                 }
-                if(!$Provider->service){
+                if(!$Provider->service->count()){
                     $msg=trans('admin.provider_msgs.service_type_pending');
                 }
                 if(!$Provider->offline_services() && $Provider->active_documents()!=$total_documents){

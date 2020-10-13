@@ -13,7 +13,7 @@
 
     <link href="{{asset('asset/css/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('asset/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{asset('asset/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('asset/css/style.css')}}?v1.1" rel="stylesheet">
 </head>
 <body>
     <div id="wrapper">
@@ -100,16 +100,17 @@
         <div class="row">
            
             <div class="col-xs-12 col-sm-12 col-md-2 col-md-offset-1 support">
-
-                    <img src="{{ asset('asset/img/support.png') }}">
+                <img src="{{ asset('asset/img/support.png') }}">
+            </div>
+            <div class="col-xs-12 col-sm-12  col-md-6 sup-txt"><h2>¿necesitas ayuda?<br>Comunícate con nuestra área de soporte</h2>
+                <div class="call-num">
+                    <h3 class="">
+                        <!-- <a href="tel:{{ Setting::get('contact_number', '+9197911 01817')  }}"> -->
+                        <span class="phone-icon"><i class="fa fa-envelope-o">&nbsp;&nbsp;{{ Setting::get('contact_email', '')  }}</i></span> 
+                        <!-- </a>  -->
+                    </h3>
                 </div>
-                 <div class="col-xs-12 col-sm-12  col-md-6 sup-txt"><h2>¿necesitas ayuda?<br>Comunícate con nuestra área de soporte</h2>
-                     <div class="call-num">
-<h3 class=""><a href="tel:{{ Setting::get('contact_number', '+9197911 01817
-')  }}"><!-- <span class="phone-icon"><i class="fa fa-3x fa-phone"></i></span> --> {{ Setting::get('contact_number', '+9197911 01817
-')  }}</a> </h3>
-                </div>
-             </div>
+            </div>
              <div class="hidden-xs hidden-sm col-md-2 support">
 
                     <img src="{{ asset('asset/img/question.png') }}">

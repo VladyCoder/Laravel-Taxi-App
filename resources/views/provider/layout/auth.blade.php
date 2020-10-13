@@ -16,7 +16,7 @@
     <link href="/css/app.css" rel="stylesheet">
     <link href="{{ asset('asset/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('asset/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('asset/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('asset/css/style.css') }}?v1.1" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
