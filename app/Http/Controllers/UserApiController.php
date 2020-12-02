@@ -124,6 +124,9 @@ class UserApiController extends Controller
                 'email' => 'required|email|max:255|unique:users',
                 'mobile' => 'required',
                 'password' => 'required|min:6',
+                'address' => 'required',
+                'city' => 'required',
+                'date_birth' => 'required'
             ]);
             
         $User = $request->all();
@@ -1000,6 +1003,7 @@ class UserApiController extends Controller
           
             return response()->json([
                 'data' => $UserRequests ,
+                'avatar' => Auth::user()->picture,
                 'sos' => Setting::get('sos_number', '911'),
                 'cash' => (int)Setting::get('CASH', 1),
                 'card' => (int)Setting::get('CARD', 0),

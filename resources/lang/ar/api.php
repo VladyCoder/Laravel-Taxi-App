@@ -78,7 +78,9 @@ return array (
 		'provider_cancelled' => 'سائق ألغى ركوب',
 		'schedule_start' => 'لقد بدأت رحلة الجدول الزمني الخاص بك',
 		'incoming_admin_request' => 'إدارة جديدة ركوب الواردة',
-        'admin_cancelled' => 'المشرف الغاء ركوب',
+		'admin_cancelled' => 'المشرف الغاء ركوب',
+		'servicetype_added' => 'تمت إضافة نوع الخدمة الخاصة بك',
+        'servicetype_updated' => 'تم تحديث نوع الخدمة الخاصة بك',
 	],
 	'transaction' => [
 		'admin_commission' => 'عمولة المشرف',

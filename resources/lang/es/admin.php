@@ -593,4 +593,17 @@ return array (
     'Arabic' => 'Arábica',
     'Spanish' => 'Española',
   ),
+
+
+  'city' => "City",
+  'male' => "Hombre",
+  'female' => "Mujer",
+  'other' => "Otro",
+  'date_birth' => "Fecha de nacimiento",
+  'vehicle_type' => "Tipo de Vehículo",
+  'vehicle_brand' => "Marca de Vehicle",
+  'vehicle_version' => "Versión de Vehicle",
+  'vehicle_year' => "Año de Vehicle",
+  'vehicle_model' => "Modelo de Vehicle",
+  'vehicle_color' => "Color de Vehicle",
 );

@@ -79,7 +79,9 @@ return array (
 		'provider_cancelled' => 'El conductor canceló el viaje',
 		'schedule_start' => 'Tu viaje programado ha comenzado',
 		'incoming_admin_request' => 'Nuevo paseo entrante de administrador',
-        'admin_cancelled' => 'El administrador canceló el viaje',
+		'admin_cancelled' => 'El administrador canceló el viaje',
+		'servicetype_added' => 'Se te agregó un tipo de servicio.',
+        'servicetype_updated' => 'Tipo de servicio actualizado.',
 	],
 	'transaction' => [
 		'admin_commission' => 'comisión administrativa',

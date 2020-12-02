@@ -181,6 +181,16 @@ class ProviderResource extends Controller
             $provider->first_name = $request->first_name;
             $provider->last_name = $request->last_name;
             $provider->mobile = $request->mobile;
+            $provider->address = $request->address;
+            $provider->city = $request->city;
+            $provider->gender = $request->gender;
+            $provider->date_birth = $request->date_birth;
+            $provider->vehicle_type = $request->vehicle_type;
+            $provider->vehicle_brand = $request->vehicle_brand;
+            $provider->vehicle_version = $request->vehicle_version;
+            $provider->vehicle_year = $request->vehicle_year;
+            $provider->vehicle_model = $request->vehicle_model;
+            $provider->vehicle_color = $request->vehicle_color;
             $provider->save();
 
             return redirect()->route('admin.provider.index')->with('flash_success', trans('admin.provider_msgs.provider_update'));    

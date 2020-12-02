@@ -29,9 +29,16 @@ class Provider extends Authenticatable
         'longitude',
         'status',
         'avatar',
-        'gender',
         'social_unique_id',
         'fleet',
+        'city',
+        'date_birth',
+        'vehicle_type',
+        'vehicle_brand',
+        'vehicle_version',
+        'vehicle_year',
+        'vehicle_model',
+        'vehicle_color'
     ];
 
     /**

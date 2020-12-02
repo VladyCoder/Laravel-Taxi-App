@@ -74,13 +74,14 @@ class UserResource extends Controller
         try{
 
             $user = $request->all();
-            if (!isset($user->language)) {
-                $user->language = Setting::get('default_lang', 'en');
-            } else {
-                if (!$user->language) {
-                    $user->language = Setting::get('default_lang', 'en');
-                }
-            }
+            // if (!isset($request->language)) {
+            //     $user->language = Setting::get('default_lang', 'en');
+            // } else {
+            //     if (!$user->language) {
+            //         $user->language = Setting::get('default_lang', 'en');
+            //     }
+            // }
+            $user['language'] = Setting::get('default_lang', 'en');
             $user['payment_mode'] = 'CASH';
             $user['password'] = bcrypt($request->password);
             if($request->hasFile('picture')) {
@@ -91,9 +92,7 @@ class UserResource extends Controller
 
             return back()->with('flash_success', trans('admin.user_msgs.user_saved'));
 
-        } 
-
-        catch (Exception $e) {
+        }catch (Exception $e) {
             return back()->with('flash_error', trans('admin.user_msgs.user_not_found'));
         }
     }
@@ -158,6 +157,10 @@ class UserResource extends Controller
             $user->first_name = $request->first_name;
             $user->last_name = $request->last_name;
             $user->mobile = $request->mobile;
+            $user->address = $request->address;
+            $user->city = $request->city;
+            $user->gender = $request->gender;
+            $user->date_birth = $request->date_birth;
             $user->save();
 
             return redirect()->route('admin.user.index')->with('flash_success', trans('admin.user_msgs.user_update'));    

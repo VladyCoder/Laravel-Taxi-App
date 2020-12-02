@@ -301,7 +301,7 @@ class CardResource extends Controller
             "apiKey" => Setting::get('epay_public_key', ''),
             "privateKey" => Setting::get('epay_private_key', ''),
             "lenguage" => "ES",
-            "test" => true
+            "test" => false
         ));
     }
 

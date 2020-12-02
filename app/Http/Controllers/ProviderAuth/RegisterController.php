@@ -85,7 +85,16 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'gender' => $gender,
             'mobile' => $data['country_code'].$data['phone_number'],
-            'password' => bcrypt($data['password'])            
+            'password' => bcrypt($data['password']),
+            'address' => $data['address'],
+            'city' => $data['city'],
+            'date_birth' => $data['date_birth'],
+            'vehicle_type' => $data['vehicle_type'],
+            'vehicle_brand' => $data['vehicle_brand'],
+            'vehicle_version' => $data['vehicle_version'],
+            'vehicle_year' => $data['vehicle_year'],
+            'vehicle_model' => $data['vehicle_model'],
+            'vehicle_color' => $data['vehicle_color']
         ]);
 
         $provider_service = ProviderService::create([
